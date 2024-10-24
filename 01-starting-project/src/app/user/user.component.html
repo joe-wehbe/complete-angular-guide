@@ -1,6 +1,6 @@
 <div>
     <button (click)="onSelectUser()"> <!-- Event binding using the click event listener -->
-        <img [src]="imagePath"/> <!-- Property binding -->
-        <span>{{ selectedUser.name }}</span> <!-- Interpolation -->
+        <img [src]="imagePath" [alt]="user.name"/> <!-- Property binding -->
+        <span>{{ user.name }}</span> <!-- Interpolation -->
     </button>
 </div>
