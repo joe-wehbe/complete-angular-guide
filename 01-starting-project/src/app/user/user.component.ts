@@ -49,7 +49,7 @@ export class UserComponent {
   /**************** OUTPUT WITH DECORATOR ****************/
 
   // @Output are used to emit events when the component is used
-  @Output() select = new EventEmitter();
+  @Output() select = new EventEmitter<string>();
 
   /************* ALTERNATIVE OUTPUT (MODERN) *************/
   // select = output<string>(); // EventEmitter will automatically be created
