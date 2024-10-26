@@ -1,4 +1,5 @@
 import { Component, EventEmitter, Input, Output} from '@angular/core';
+import { type User } from './user.model'; // We can add the keyword 'type' if the import is a type definition
 
 // TYPE ALIAS
 // type User = {
@@ -6,13 +7,6 @@ import { Component, EventEmitter, Input, Output} from '@angular/core';
 //   avatar: string;
 //   name: string;
 // }
-
-// INTERFACE (another way of defining an object type)
-interface User {
-  id: string;
-  avatar: string;
-  name: string;
-}
 
 @Component({
   selector: 'app-user',
@@ -28,6 +22,8 @@ export class UserComponent {
   @Input({ required: true }) user!: User;  // '!' indicates that the variable will be set to some value
   // @Input({ required: true }) avatar!: string;
   // @Input({ required: true }) name!: string;
+
+  @Input({ required: true }) selected!: boolean;
 
   // This is a user object type, we can outsource it with a type alias
   // @Input({ required: true }) user!: {

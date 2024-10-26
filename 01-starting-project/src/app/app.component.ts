@@ -17,7 +17,7 @@ export class AppComponent {
   selectedUserId?: string;
 
   get selectedUser() {
-    return this.users.find((user) => user.id === this.selectedUserId)! // find() allows us to find an element in an array of elements
+    return this.users.find((user) => user.id === this.selectedUserId)! // find() allows us to find an element in an array
   }
 
   onSelectUser(id: string) {
