@@ -1,6 +1,5 @@
 import { Component, EventEmitter, Input, Output} from '@angular/core';
 import { type User } from './user.model'; // We can add the keyword 'type' if the import is a type definition
-import { CardComponent } from "../shared/card/card.component";
 
 // TYPE ALIAS
 // type User = {
@@ -11,10 +10,8 @@ import { CardComponent } from "../shared/card/card.component";
 
 @Component({
   selector: 'app-user',
-  standalone: true,
   templateUrl: './user.component.html',
   styleUrl: './user.component.css',
-  imports: [CardComponent]
 })
 export class UserComponent {
 
