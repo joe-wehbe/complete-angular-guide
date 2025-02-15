@@ -7,7 +7,7 @@ This udemy bestseller course is a comprehensive and detailed guide to building s
 
 # What I Learned
 This course provided a detailed explanation and multiple demo projects for the following topics: <br><br>
-`Essentials ` `Components` `Templates` `Lifecycle hooks` `Data binding` `Built-in directives` `Custom directives` `Built-in pipes` `Custom pipes` `Services` `Change detection` `Observables` `RxJs` `Http` `Template-based forms` `Reactive forms` `routing` `guards` `lazy loading`
+`components` `tmplates` `lifecycle hooks` `data binding` `built-in directives` `custom directives` `built-in pipes` `custom pipes` `services` `change detection` `observables` `RxJs` `http` `template-based forms` `reactive forms` `routing` `guards` `lazy loading` `performance optimization` `deployment`
 
 # Tools and Languages
 |Frameworks|Languages|
